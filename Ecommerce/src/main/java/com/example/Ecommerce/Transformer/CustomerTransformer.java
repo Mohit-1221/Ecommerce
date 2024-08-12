@@ -9,6 +9,7 @@ public class CustomerTransformer {
     public static Customer requestDtoToCustomer(CustomerRequestDto customerRequestDto){
         return Customer.builder()
                 .name(customerRequestDto.getName())
+                .age(customerRequestDto.getAge())
                 .mobNo(customerRequestDto.getMobNo())
                 .emailId(customerRequestDto.getEmailId())
                 .gender(customerRequestDto.getGender())

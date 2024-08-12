@@ -20,6 +20,8 @@ import java.util.List;
 public class CustomerRequestDto {
     String name;
 
+    int age;
+
     String emailId;
 
     String mobNo;

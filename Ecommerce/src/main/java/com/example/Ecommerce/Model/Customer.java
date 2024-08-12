@@ -24,6 +24,9 @@ public class Customer {
     @Column(name = "customer_name")
     String name;
 
+    @Column(name = "age")
+    int age;
+
     @Column(name = "email_id",unique = true,nullable = false)
     String emailId;
 
